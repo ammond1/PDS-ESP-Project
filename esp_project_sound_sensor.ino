@@ -7,8 +7,8 @@
 #include <Arduino.h>
 
 // Wi-Fi credentials
-const char* ssid = "SUTD_Guest";
-const char* password = "";
+const char* ssid = "YOUR_WIFI_NAME";
+const char* password = "YOUR_PASSWORD";
 
 // Firebase credentials
 #define FIREBASE_HOST "fire-base-url"  // Your Firebase Realtime Database URL
