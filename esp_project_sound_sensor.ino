@@ -11,8 +11,8 @@ const char* ssid = "SUTD_Guest";
 const char* password = "";
 
 // Firebase credentials
-#define FIREBASE_HOST "https://pds-esp-project-default-rtdb.firebaseio.com/"  // Your Firebase Realtime Database URL
-#define FIREBASE_AUTH "OHn7cnthHhCKw194jjWQdulzYEAZKoryEZ73NhSz"           // Your Firebase Database Secret or API Key
+#define FIREBASE_HOST "fire-base-url"  // Your Firebase Realtime Database URL
+#define FIREBASE_AUTH "fire-base-secret"           // Your Firebase Database Secret or API Key
 FirebaseData firebaseData;
 FirebaseConfig firebaseConfig;
 FirebaseAuth firebaseAuth;
