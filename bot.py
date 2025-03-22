@@ -6,11 +6,11 @@ from firebase_admin import credentials, db
 import time
 
 # Path to your Firebase Admin SDK private key file
-cred = credentials.Certificate('/Users/admin/Desktop/pds-esp-project-firebase-adminsdk-fbsvc-78eb11400f.json')
+cred = credentials.Certificate('REPLACE WITH PATH TO SDK FILE')
 
 # Initialize Firebase Admin SDK
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://pds-esp-project-default-rtdb.firebaseio.com/'  # Replace with your Firebase Realtime Database URL
+    'databaseURL': 'FIREBASE DATABASE URL LINK '  # Replace with your Firebase Realtime Database URL
 })
 
 load_dotenv()
